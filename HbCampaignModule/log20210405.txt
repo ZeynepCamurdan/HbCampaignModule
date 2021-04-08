@@ -1,0 +1,329 @@
+2021-04-05 01:53:25.957 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 01:53:26.002 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger  
+2021-04-05 01:53:26.063 +03:00 [INF] Hosting environment: Development
+2021-04-05 01:53:26.067 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 01:53:26.117 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/index.html  
+2021-04-05 01:53:26.154 +03:00 [INF] Request finished in 145.8514ms 301 
+2021-04-05 01:53:26.224 +03:00 [INF] Request finished in 107.4423ms 200 text/html;charset=utf-8
+2021-04-05 01:53:26.249 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/swagger-ui.css  
+2021-04-05 01:53:26.253 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/swagger-ui-standalone-preset.js  
+2021-04-05 01:53:26.253 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/swagger-ui-bundle.js  
+2021-04-05 01:53:26.325 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-04-05 01:53:26.325 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-04-05 01:53:26.325 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-04-05 01:53:26.336 +03:00 [INF] Request finished in 83.1169ms 200 application/javascript
+2021-04-05 01:53:26.336 +03:00 [INF] Request finished in 83.071ms 200 application/javascript
+2021-04-05 01:53:26.336 +03:00 [INF] Request finished in 87.0398ms 200 text/css
+2021-04-05 01:53:26.597 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/v1/swagger.json  
+2021-04-05 01:53:26.654 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/favicon-32x32.png  
+2021-04-05 01:53:26.661 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-04-05 01:53:26.665 +03:00 [INF] Request finished in 12.0427ms 200 image/png
+2021-04-05 01:53:26.784 +03:00 [INF] Request finished in 186.8916ms 200 application/json;charset=utf-8
+2021-04-05 01:53:33.592 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 74
+2021-04-05 01:53:33.636 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:53:33.756 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 01:53:34.405 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 641.438ms
+2021-04-05 01:53:34.414 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:53:34.486 +03:00 [INF] Request finished in 897.2352ms 200 
+2021-04-05 01:54:13.240 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 75
+2021-04-05 01:54:13.248 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:54:13.252 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 01:54:13.288 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 32.3212ms
+2021-04-05 01:54:13.296 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:54:13.337 +03:00 [INF] Request finished in 99.03ms 200 
+2021-04-05 01:54:42.410 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 75
+2021-04-05 01:54:42.420 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:54:42.425 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 01:54:42.433 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 4.5846ms
+2021-04-05 01:54:42.438 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:54:42.479 +03:00 [INF] Request finished in 69.4432ms 200 
+2021-04-05 01:55:42.282 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 01:55:42.325 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/index.html  
+2021-04-05 01:55:42.384 +03:00 [INF] Hosting environment: Development
+2021-04-05 01:55:42.387 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 01:55:42.482 +03:00 [INF] Request finished in 164.2552ms 200 text/html;charset=utf-8
+2021-04-05 01:55:42.831 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/v1/swagger.json  
+2021-04-05 01:55:42.985 +03:00 [INF] Request finished in 154.2055ms 200 application/json;charset=utf-8
+2021-04-05 01:55:46.120 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 75
+2021-04-05 01:55:46.167 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:55:46.255 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 01:55:46.543 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 278.5722ms
+2021-04-05 01:55:46.551 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:55:46.624 +03:00 [INF] Request finished in 506.7063ms 200 
+2021-04-05 01:57:45.397 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 01:57:45.443 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/index.html  
+2021-04-05 01:57:45.488 +03:00 [INF] Hosting environment: Development
+2021-04-05 01:57:45.491 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 01:57:45.590 +03:00 [INF] Request finished in 153.1261ms 200 text/html;charset=utf-8
+2021-04-05 01:57:45.783 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/v1/swagger.json  
+2021-04-05 01:57:45.933 +03:00 [INF] Request finished in 150.2302ms 200 application/json;charset=utf-8
+2021-04-05 01:58:16.813 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 40
+2021-04-05 01:58:16.852 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:58:16.910 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 01:58:16.922 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 3.5526ms
+2021-04-05 01:58:16.930 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:58:16.988 +03:00 [INF] Request finished in 183.9777ms 200 
+2021-04-05 01:59:19.546 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 75
+2021-04-05 01:59:19.551 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:59:19.556 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 01:59:19.562 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.4885ms
+2021-04-05 01:59:19.566 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:59:19.601 +03:00 [INF] Request finished in 59.6293ms 200 
+2021-04-05 01:59:35.741 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 75
+2021-04-05 01:59:35.745 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:59:35.751 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 01:59:35.757 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.7802ms
+2021-04-05 01:59:35.759 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:59:35.794 +03:00 [INF] Request finished in 53.025ms 200 
+2021-04-05 01:59:45.929 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 75
+2021-04-05 01:59:45.935 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:59:45.939 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 01:59:45.943 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.8013ms
+2021-04-05 01:59:45.948 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:59:45.989 +03:00 [INF] Request finished in 59.6392ms 200 
+2021-04-05 01:59:47.043 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 75
+2021-04-05 01:59:47.054 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:59:47.059 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 01:59:47.065 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.9392ms
+2021-04-05 01:59:47.072 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:59:47.110 +03:00 [INF] Request finished in 67.6625ms 200 
+2021-04-05 01:59:50.945 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 75
+2021-04-05 01:59:50.949 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:59:50.953 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 01:59:50.958 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.4694ms
+2021-04-05 01:59:50.962 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 01:59:50.998 +03:00 [INF] Request finished in 52.4595ms 200 
+2021-04-05 02:00:05.653 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 75
+2021-04-05 02:00:05.656 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 02:00:05.664 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 02:00:05.669 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.53ms
+2021-04-05 02:00:05.675 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 02:00:05.724 +03:00 [INF] Request finished in 71.4441ms 200 
+2021-04-05 17:38:46.738 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 17:38:46.796 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger  
+2021-04-05 17:38:46.845 +03:00 [INF] Hosting environment: Development
+2021-04-05 17:38:46.848 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 17:38:46.902 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/index.html  
+2021-04-05 17:38:46.928 +03:00 [INF] Request finished in 136.48ms 301 
+2021-04-05 17:38:47.008 +03:00 [INF] Request finished in 105.4179ms 200 text/html;charset=utf-8
+2021-04-05 17:38:47.032 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/swagger-ui.css  
+2021-04-05 17:38:47.036 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/swagger-ui-bundle.js  
+2021-04-05 17:38:47.036 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/swagger-ui-standalone-preset.js  
+2021-04-05 17:38:47.102 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-04-05 17:38:47.102 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-04-05 17:38:47.102 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-04-05 17:38:47.115 +03:00 [INF] Request finished in 79.1082ms 200 application/javascript
+2021-04-05 17:38:47.115 +03:00 [INF] Request finished in 79.1083ms 200 application/javascript
+2021-04-05 17:38:47.115 +03:00 [INF] Request finished in 83.4319ms 200 text/css
+2021-04-05 17:38:47.365 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/v1/swagger.json  
+2021-04-05 17:38:47.502 +03:00 [INF] Request finished in 136.3832ms 200 application/json;charset=utf-8
+2021-04-05 17:39:43.267 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 75
+2021-04-05 17:39:43.303 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:39:43.413 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 17:39:43.428 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 5.7261ms
+2021-04-05 17:39:43.435 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:39:43.498 +03:00 [INF] Request finished in 237.0125ms 200 
+2021-04-05 17:39:54.776 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct? application/json 75
+2021-04-05 17:39:54.780 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:39:54.784 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 17:39:54.789 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.6237ms
+2021-04-05 17:39:54.793 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:39:54.826 +03:00 [INF] Request finished in 50.1303ms 200 
+2021-04-05 17:44:48.976 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 17:44:49.015 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/index.html  
+2021-04-05 17:44:49.062 +03:00 [INF] Hosting environment: Development
+2021-04-05 17:44:49.065 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 17:44:49.162 +03:00 [INF] Request finished in 151.6618ms 200 text/html;charset=utf-8
+2021-04-05 17:44:49.518 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/v1/swagger.json  
+2021-04-05 17:44:49.657 +03:00 [INF] Request finished in 139.9256ms 200 application/json;charset=utf-8
+2021-04-05 17:45:37.510 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 76
+2021-04-05 17:45:37.548 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:45:37.612 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 17:45:37.627 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 5.7248ms
+2021-04-05 17:45:37.634 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:45:37.714 +03:00 [INF] Request finished in 210.0558ms 200 
+2021-04-05 17:47:04.925 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 76
+2021-04-05 17:47:04.930 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:47:04.935 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 17:47:04.942 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 2.2053ms
+2021-04-05 17:47:04.948 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:47:04.997 +03:00 [INF] Request finished in 78.562ms 200 
+2021-04-05 17:47:31.749 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 76
+2021-04-05 17:47:31.753 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:47:31.757 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 17:47:31.761 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.2842ms
+2021-04-05 17:47:31.766 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:47:31.804 +03:00 [INF] Request finished in 55.3162ms 200 
+2021-04-05 17:48:34.138 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 40
+2021-04-05 17:48:34.144 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:48:34.148 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 17:48:34.152 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.3175ms
+2021-04-05 17:48:34.156 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 17:48:34.192 +03:00 [INF] Request finished in 57.9457ms 200 
+2021-04-05 18:07:42.058 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 18:07:42.101 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/index.html  
+2021-04-05 18:07:42.159 +03:00 [INF] Hosting environment: Development
+2021-04-05 18:07:42.162 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 18:07:42.268 +03:00 [INF] Request finished in 171.1875ms 200 text/html;charset=utf-8
+2021-04-05 18:07:42.485 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/v1/swagger.json  
+2021-04-05 18:07:42.629 +03:00 [INF] Request finished in 143.971ms 200 application/json;charset=utf-8
+2021-04-05 18:08:35.428 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 18:08:35.470 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/index.html  
+2021-04-05 18:08:35.528 +03:00 [INF] Hosting environment: Development
+2021-04-05 18:08:35.531 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 18:08:35.627 +03:00 [INF] Request finished in 162.2373ms 200 text/html;charset=utf-8
+2021-04-05 18:08:35.840 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/swagger/v1/swagger.json  
+2021-04-05 18:08:35.995 +03:00 [INF] Request finished in 150.3982ms 200 application/json;charset=utf-8
+2021-04-05 18:08:50.101 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:08:50.140 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:08:50.265 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:08:50.278 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 3.7332ms
+2021-04-05 18:08:50.285 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:08:50.351 +03:00 [INF] Request finished in 251.7828ms 200 
+2021-04-05 18:09:28.126 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:09:28.132 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:09:28.136 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:09:28.141 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.4403ms
+2021-04-05 18:09:28.145 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:09:28.179 +03:00 [INF] Request finished in 52.7826ms 200 
+2021-04-05 18:09:30.553 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:09:30.556 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:09:30.559 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:09:30.563 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.2872ms
+2021-04-05 18:09:30.567 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:09:30.607 +03:00 [INF] Request finished in 54.6461ms 200 
+2021-04-05 18:09:35.973 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/ application/json 76
+2021-04-05 18:09:35.979 +03:00 [INF] Request finished in 5.9372ms 404 
+2021-04-05 18:09:37.360 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/ application/json 76
+2021-04-05 18:09:37.368 +03:00 [INF] Request finished in 7.0523ms 404 
+2021-04-05 18:10:06.802 +03:00 [INF] Now listening on: http://localhost:5000
+2021-04-05 18:10:06.896 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 18:10:06.900 +03:00 [INF] Hosting environment: Development
+2021-04-05 18:10:06.904 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 18:10:07.757 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger  
+2021-04-05 18:10:07.841 +03:00 [INF] Request finished in 93.949ms 301 
+2021-04-05 18:10:07.879 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2021-04-05 18:10:07.934 +03:00 [INF] Request finished in 51.7353ms 200 text/html;charset=utf-8
+2021-04-05 18:10:07.979 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css  
+2021-04-05 18:10:07.987 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js  
+2021-04-05 18:10:07.995 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js  
+2021-04-05 18:10:08.095 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-04-05 18:10:08.095 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-04-05 18:10:08.095 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-04-05 18:10:08.107 +03:00 [INF] Request finished in 120.051ms 200 application/javascript
+2021-04-05 18:10:08.107 +03:00 [INF] Request finished in 111.7612ms 200 application/javascript
+2021-04-05 18:10:08.112 +03:00 [INF] Request finished in 133.5557ms 200 text/css
+2021-04-05 18:10:08.322 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2021-04-05 18:10:08.374 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png  
+2021-04-05 18:10:08.381 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-04-05 18:10:08.389 +03:00 [INF] Request finished in 15.2529ms 200 image/png
+2021-04-05 18:10:08.465 +03:00 [INF] Request finished in 143.4603ms 200 application/json;charset=utf-8
+2021-04-05 18:10:21.944 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:10:21.987 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:10:22.043 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:10:22.058 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 3.0791ms
+2021-04-05 18:10:22.073 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:10:22.151 +03:00 [INF] Request finished in 207.2882ms 200 
+2021-04-05 18:11:20.879 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:11:20.886 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:11:20.901 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:11:20.913 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.2928ms
+2021-04-05 18:11:20.918 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:11:20.954 +03:00 [INF] Request finished in 75.5721ms 200 
+2021-04-05 18:11:42.111 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Campaign/CreateProduct application/json 37
+2021-04-05 18:11:42.119 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:11:42.129 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:11:42.139 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 1.1871ms
+2021-04-05 18:11:42.147 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:11:42.183 +03:00 [INF] Request finished in 72.8579ms 200 
+2021-04-05 18:11:44.002 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Campaign/CreateProduct application/json 37
+2021-04-05 18:11:44.009 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:11:44.017 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:11:44.028 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 0.8423ms
+2021-04-05 18:11:44.036 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:11:44.073 +03:00 [INF] Request finished in 70.6253ms 200 
+2021-04-05 18:12:44.176 +03:00 [INF] Now listening on: http://localhost:5000
+2021-04-05 18:12:44.273 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 18:12:44.278 +03:00 [INF] Hosting environment: Development
+2021-04-05 18:12:44.282 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 18:12:44.896 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2021-04-05 18:12:44.996 +03:00 [INF] Request finished in 109.7739ms 404 
+2021-04-05 18:12:53.125 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:12:53.141 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:12:53.221 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:12:53.238 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 4.4451ms
+2021-04-05 18:12:53.251 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:12:53.317 +03:00 [INF] Request finished in 192.5788ms 200 
+2021-04-05 18:13:46.958 +03:00 [INF] Now listening on: http://localhost:5000
+2021-04-05 18:13:47.081 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 18:13:47.097 +03:00 [INF] Hosting environment: Development
+2021-04-05 18:13:47.101 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 18:13:47.889 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Campaign  
+2021-04-05 18:13:47.972 +03:00 [INF] Request finished in 91.95ms 404 
+2021-04-05 18:13:52.323 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:13:52.335 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:13:52.418 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:13:52.436 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 3.7287ms
+2021-04-05 18:13:52.446 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:13:52.511 +03:00 [INF] Request finished in 188.0692ms 200 
+2021-04-05 18:15:36.192 +03:00 [INF] Now listening on: http://localhost:5000
+2021-04-05 18:15:36.284 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 18:15:36.291 +03:00 [INF] Hosting environment: Development
+2021-04-05 18:15:36.296 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 18:15:36.974 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Campaign  
+2021-04-05 18:15:37.035 +03:00 [INF] Request finished in 64.6925ms 404 
+2021-04-05 18:15:40.490 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:15:40.500 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:15:40.568 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:15:41.185 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 601.8375ms
+2021-04-05 18:15:41.196 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:15:41.280 +03:00 [INF] Request finished in 790.0367ms 200 
+2021-04-05 18:15:57.854 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:15:57.859 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:15:57.863 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:15:57.883 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 13.2232ms
+2021-04-05 18:15:57.895 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:15:57.928 +03:00 [INF] Request finished in 73.7312ms 200 
+2021-04-05 18:16:14.367 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 18:16:14.403 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/Campaign  
+2021-04-05 18:16:14.455 +03:00 [INF] Hosting environment: Development
+2021-04-05 18:16:14.459 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 18:16:14.508 +03:00 [INF] Request finished in 108.7918ms 404 
+2021-04-05 18:16:51.743 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 18:16:51.783 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/Campaign  
+2021-04-05 18:16:51.834 +03:00 [INF] Hosting environment: Development
+2021-04-05 18:16:51.837 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 18:16:51.885 +03:00 [INF] Request finished in 109.0134ms 404 
+2021-04-05 18:16:58.756 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/Campaign/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:16:58.763 +03:00 [INF] Request finished in 7.9233ms 404 
+2021-04-05 18:17:14.069 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:17:14.081 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:17:14.153 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:17:14.380 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 218.7439ms
+2021-04-05 18:17:14.388 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:17:14.440 +03:00 [INF] Request finished in 372.2792ms 200 
+2021-04-05 18:17:57.695 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 76
+2021-04-05 18:17:57.700 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:17:57.704 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:17:57.733 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 25.5769ms
+2021-04-05 18:17:57.736 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:17:57.774 +03:00 [INF] Request finished in 83.8794ms 200 
+2021-04-05 18:18:17.980 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:57033/api/Campaign/CreateProduct application/json 75
+2021-04-05 18:18:17.986 +03:00 [INF] Executing endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:18:17.991 +03:00 [INF] Route matched with {action = "CreateProduct", controller = "Campaign"}. Executing controller action with signature HbCampaignModule.Domain.Model.Response`1[HbCampaignModule.Domain.Model.ProductDto] CreateProduct(HbCampaignModule.Domain.Model.ProductDto) on controller HbCampaignModule.API.Controllers.CampaignController (HbCampaignModule.API).
+2021-04-05 18:18:17.999 +03:00 [INF] Executed action HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API) in 4.5167ms
+2021-04-05 18:18:18.006 +03:00 [INF] Executed endpoint 'HbCampaignModule.API.Controllers.CampaignController.CreateProduct (HbCampaignModule.API)'
+2021-04-05 18:18:18.047 +03:00 [INF] Request finished in 66.3282ms 200 
+2021-04-05 18:19:11.828 +03:00 [INF] Now listening on: http://localhost:5000
+2021-04-05 18:19:11.926 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 18:19:11.933 +03:00 [INF] Hosting environment: Development
+2021-04-05 18:19:11.937 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 18:19:12.388 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Campaign  
+2021-04-05 18:19:12.448 +03:00 [INF] Request finished in 62.0321ms 404 
+2021-04-05 18:19:24.177 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Campaign/api/Campaign/CreateProduct application/json 75
+2021-04-05 18:19:24.185 +03:00 [INF] Request finished in 7.7664ms 404 
+2021-04-05 18:19:59.139 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-05 18:19:59.176 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:57033/Campaign  
+2021-04-05 18:19:59.232 +03:00 [INF] Hosting environment: Development
+2021-04-05 18:19:59.236 +03:00 [INF] Content root path: C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule
+2021-04-05 18:19:59.285 +03:00 [INF] Request finished in 113.4409ms 404 

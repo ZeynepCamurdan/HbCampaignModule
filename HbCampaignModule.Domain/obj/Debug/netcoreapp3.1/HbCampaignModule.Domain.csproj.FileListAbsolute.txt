@@ -1,0 +1,17 @@
+C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule.Domain\bin\Debug\netcoreapp3.1\HbCampaignModule.Domain.deps.json
+C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule.Domain\bin\Debug\netcoreapp3.1\HbCampaignModule.Domain.dll
+C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule.Domain\bin\Debug\netcoreapp3.1\HbCampaignModule.Domain.pdb
+C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule.Domain\obj\Debug\netcoreapp3.1\HbCampaignModule.Domain.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule.Domain\obj\Debug\netcoreapp3.1\HbCampaignModule.Domain.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule.Domain\obj\Debug\netcoreapp3.1\HbCampaignModule.Domain.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule.Domain\obj\Debug\netcoreapp3.1\HbCampaignModule.Domain.dll
+C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule.Domain\obj\Debug\netcoreapp3.1\HbCampaignModule.Domain.pdb
+C:\Users\MONSTER\source\repos\HbCampaignModule\HbCampaignModule.Domain\obj\Debug\netcoreapp3.1\HbCampaignModule.Domain.csprojAssemblyReference.cache
+C:\Users\MONSTER\source\HbCampaignModule\HbCampaignModule.Domain\bin\Debug\netcoreapp3.1\HbCampaignModule.Domain.deps.json
+C:\Users\MONSTER\source\HbCampaignModule\HbCampaignModule.Domain\bin\Debug\netcoreapp3.1\HbCampaignModule.Domain.dll
+C:\Users\MONSTER\source\HbCampaignModule\HbCampaignModule.Domain\bin\Debug\netcoreapp3.1\HbCampaignModule.Domain.pdb
+C:\Users\MONSTER\source\HbCampaignModule\HbCampaignModule.Domain\obj\Debug\netcoreapp3.1\HbCampaignModule.Domain.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\HbCampaignModule\HbCampaignModule.Domain\obj\Debug\netcoreapp3.1\HbCampaignModule.Domain.AssemblyInfo.cs
+C:\Users\MONSTER\source\HbCampaignModule\HbCampaignModule.Domain\obj\Debug\netcoreapp3.1\HbCampaignModule.Domain.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\HbCampaignModule\HbCampaignModule.Domain\obj\Debug\netcoreapp3.1\HbCampaignModule.Domain.dll
+C:\Users\MONSTER\source\HbCampaignModule\HbCampaignModule.Domain\obj\Debug\netcoreapp3.1\HbCampaignModule.Domain.pdb
